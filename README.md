@@ -3,7 +3,9 @@ Convert data from Mind Monitor to a WAV for viewing in spectrogram tools
 
 Still a WIP right now but working pretty well. The script should be placed in the same folder as the MindView CSV and that CSV should be renamed to 'sleepData.csv'.
 
-When recording from the Mind Monitor app you need to ensure you set the sampling rate to constant, this will generate large csv files particularly for overnight sleep analysis but the zipped file is highly compressed.
+When recording from the Mind Monitor app you need to ensure you set the sampling rate to constant, this will generate large csv files because it's 256Hz so particularly for overnight sleep analysis it will be large but the zipped file is highly compressed before being uploaded by Mind Monitor.
+
+You'll need all the relavant Python libraries as per the script.
 
 The script processes data from AF7 into a WAV file that you can then use in either a dedicated spectrogram tool or something like Audacity https://manual.audacityteam.org/man/spectrogram_view.html
 
