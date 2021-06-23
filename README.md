@@ -14,7 +14,7 @@ The script also exports relative brainwaves into a CSV that you can open in Exce
 Couple of caveats right now are that I need to work more on how bad data is handled, I think it's probably overly brutal. Also should make use of the other channels rather than just AF7.
 
 Example spectrogram in Audacity from a sleep session which was around 6 hours. I had a random bar at around 50Hz, apparently not uncommon sometimes:
-![Screenshot](exampleSpectrogram.PNG)
+![image](https://user-images.githubusercontent.com/74158243/123174436-02055500-d478-11eb-89da-23840e798e4c.png)
 
 
 View from a different tool (http://spek.cc/)
