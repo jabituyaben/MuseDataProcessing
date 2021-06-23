@@ -17,3 +17,6 @@ Couple of caveats right now are that I need to work more on how bad data is hand
 
 Example spectrogram in Audacity from a sleep session which was around 6 hours. I had a random bar at around 50Hz, apparently not uncommon sometimes:
 ![Screenshot](exampleSpectrogram.PNG)
+
+Mind Monitor App
+https://mind-monitor.com/
