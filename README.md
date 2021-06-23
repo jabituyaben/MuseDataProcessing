@@ -7,11 +7,11 @@ When recording from the Mind Monitor app you need to ensure you set the sampling
 
 You'll need all the relavant Python libraries as per the script.
 
-The script processes data from AF7 into a WAV file that you can then use in either a dedicated spectrogram tool or something like Audacity https://manual.audacityteam.org/man/spectrogram_view.html
+The script processes data from AF7 and AF8 (average) into a WAV file that you can then use in either a dedicated spectrogram tool or something like Audacity https://manual.audacityteam.org/man/spectrogram_view.html
 
 The script also exports relative brainwaves into a CSV that you can open in Excel - it downsamples the full file so it's more manageable. For charting etc I'd suggest adding a moving average so it's easier to see.
 
-Couple of caveats right now are that I need to work more on how bad data is handled, I think it's probably overly brutal. Also should make use of the other channels rather than just AF7.
+Couple of caveats right now are that I need to work more on how bad data is handled, I think it's probably overly brutal. Also should make use of the other channels too and probably do some more on signal processing.
 
 Example spectrogram in Audacity from a sleep session which was around 6 hours. I had a random bar at around 50Hz, apparently not uncommon sometimes:
 ![image](https://user-images.githubusercontent.com/74158243/123174436-02055500-d478-11eb-89da-23840e798e4c.png)
