@@ -19,5 +19,6 @@ Example spectrogram in Audacity from a sleep session which was around 6 hours. I
 ![Screenshot](exampleSpectrogram.PNG)
 
 Other Links:
+
 Mind Monitor App
 https://mind-monitor.com/
