@@ -13,5 +13,5 @@ Once the script is finished it displays a PSD chart so you can sense check the d
 
 Couple of caveats right now are that I need to work more on the bad data handling more, I think it's probably overly brutal. Also should make use of the other channels rather than just AF7. Also the axis are wrong the PSD chart I think.
 
-Example spectrogram in Audacity - I had a random bar at around 50Hz, apparently not uncommon sometimes:
+Example spectrogram in Audacity from a sleep session which was around 6 hours. I had a random bar at around 50Hz, apparently not uncommon sometimes:
 ![Screenshot](exampleSpectrogram.PNG)
