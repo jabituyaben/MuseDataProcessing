@@ -33,7 +33,7 @@ with open('sleepData.csv') as csv_file:
             line_count += 1
         else:
             try:
-                lastGood = float(row[22])
+                lastGood = (float(row[22])+float(row[23]))/2
                 rawData.append(lastGood) 
             except:
                 rawData.append(lastGood)
