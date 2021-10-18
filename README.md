@@ -1,6 +1,9 @@
 # Muse S RAW EEG Data Processing - should also work the same for the Muse 2 band
 Convert data from Mind Monitor to a WAV for viewing in spectrogram tools
 
+Full blog post with overview on Muse S band
+https://jabituyaben.wixsite.com/majorinput/post/thoughts-on-the-muse-s-brain-sensing-headband
+
 Still a WIP right now but working pretty well. The script should be placed in the same folder as the MindView CSV and that CSV should be renamed to 'sleepData.csv'. The script may likely need to be modified so you reference the right columns if your setup for Mind View csv exports are setup differently with different order to the columns - which they quite likely will be.
 
 When recording from the Mind Monitor app you need to ensure you set the sampling rate to constant, this will generate large csv files because it's 256Hz so particularly for overnight sleep analysis it will be large but the zipped file is highly compressed before being uploaded by Mind Monitor.
